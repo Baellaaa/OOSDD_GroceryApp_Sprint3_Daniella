@@ -13,5 +13,7 @@ namespace Grocery.Core.Interfaces.Repositories
         public Product? Delete(Product item);
 
         public Product? Update(Product item);
+
+        public List<Product> Search(string productName);
     }
 }

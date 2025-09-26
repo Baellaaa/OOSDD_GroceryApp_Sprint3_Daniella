@@ -39,6 +39,11 @@ namespace Grocery.App.ViewModels
             GetAvailableProducts();
         }
 
+        private List<Product> Search(string productName)
+        {
+            return Search(productName);
+        }
+
         private void GetAvailableProducts()
         {
             AvailableProducts.Clear();
